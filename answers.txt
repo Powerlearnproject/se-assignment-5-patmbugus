@@ -1,0 +1,90 @@
+1.Prerequisites
+Windows 11 Operating System: Ensure you have Windows 11 installed on your computer.
+Internet Connection: You need an active internet connection to download the installer.
+Steps to Download and Install Visual Studio Code
+Download the Installer:
+
+Open your preferred web browser.
+Navigate to the Visual Studio Code download page.
+Click on the "Download for Windows" button. This will download the installer for Visual Studio Code.
+Run the Installer:
+
+Locate the downloaded installer file (usually in your "Downloads" folder) named something like VSCodeSetup-x.y.z.exe.
+Double-click on the installer file to run it.
+Setup Wizard:
+
+Welcome Screen: The Visual Studio Code Setup Wizard will open. Click "Next" to proceed.
+License Agreement: Read the license agreement, check the "I accept the agreement" box, and click "Next".
+Select Destination Location: Choose the directory where you want to install Visual Studio Code. The default path is usually fine. Click "Next".
+Select Start Menu Folder: Choose the Start Menu folder for the Visual Studio Code shortcuts. Click "Next".
+Select Additional Tasks: You can select additional tasks such as creating a desktop icon, adding Visual Studio Code to your PATH, and registering file types to be opened with Visual Studio Code. It's recommended to check the options for adding to PATH and creating a desktop icon. Click "Next".
+Ready to Install: Review your settings and click "Install" to start the installation process.
+Installation:
+
+The installer will copy files and set up Visual Studio Code on your computer. This process may take a few minutes.
+Completion:
+
+Once the installation is complete, you will see a completion screen. Ensure the "Launch Visual Studio Code" box is checked if you want to open it immediately. Click "Finish" to complete the setup.
+Additional Configuration (Optional)
+Install Extensions:
+
+2.Once Visual Studio Code is launched, you can enhance its functionality by installing extensions. Click on the Extensions icon on the left sidebar or press Ctrl+Shift+X.
+Browse or search for extensions you need (e.g., Python, C++, JavaScript) and click "Install".
+
+3. The Activity Bar Quick access to various views (Explorer, Search, Source Control, Run and Debug, Extensions).
+The Side Bar Displays the contents of the selected view (e.g., file explorer, search results).
+The main area for editing files, supporting multiple tabs and split views.
+Provides real-time information about the editor and active file, with interactive elements for quick actions.
+
+4.Command palette- The Command Palette in Visual Studio Code is a powerful feature that allows you to access and execute various commands and actions within the editor quickly. 
+Examples of common tasks that can be performed using the Command Palette;
+Opening files and folders
+Finding and replacing text
+Git commands
+Debugging
+Installing an extension
+Accessing settings and preferences
+
+5. Role of extensions in Vscode- They enhance the functionality of the editor by adding new features, improving productivity, and supporting additional languages and frameworks.
+Finding extensions by presiing Ctrl+Shift+X 
+Installing extensions- In the Extensions view, click the "Install" button next to the desired extension
+To manage extensions- you can view, disable, Uninstall and update extensions
+
+6. opening integrated terminal-  Ketboard shortcut Ctrl+`(backtick)
+from Menu bar select View- terminal
+From command palette- search terminal- create new terminal
+Advantages of using integrated terminal vs external terminal
+Convenience, Side by side coding and command execution
+
+7. File and folder management
+Creating New file using Explorer- right click in the explorer view and select new file
+Creating new folder- Using the explorer, Right-click in the Explorer view and select "New Folder" then enter the name of the new folder and press enter
+Opening a file-Open explorer view and click on the file you want to open
+Opening a folder- Press Ctrl+Shift+P to open command palette, type File Open Folder
+Renaming files- Right click on the file or folder and selenct Rename
+Deleting files- from explorer right click the file or folder  and select delete
+
+8. Where can users find Customize settings and preferences in Vscode
+using the menu , Go to file- preferences- settings
+examples of how to change the theme- File-Preferences-theme
+ font size -Open settings UI- navigate to font size
+ keybindings- Go to File -> Preferences -> Keyboard Shortcuts
+
+ 9. Click on the Run and Debug icon in the Activity Bar on the side of the window or press Ctrl+Shift+D
+Click on the "create a launch.json file" link in the Run and Debug pane. This will generate a .vscode/launch.json file in your workspace.
+Select the appropriate environment for your application (e.g., Python, Node.js).
+Press F5 or click the green play button in the Run and Debug pane to start the debugging session.
+
+Key debugging features- Breakpoints, Variable inspection and integrated terminal
+
+10. How can users integrate Git with VS Code for version control? 
+Install Git:
+
+Ensure Git is installed on your system. You can download it from git-scm.com.
+Open VS Code:
+Launch Visual Studio Code.
+Verify Git Installation:
+Open the terminal in VS Code (Ctrl+ (backtick) or View -> Terminal).
+Type git --version to verify Git is installed and available.
+Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+Open your project folder, Initialize a git repository, Configure git with name and email, stage changes, commit changes and pushc changes to github
